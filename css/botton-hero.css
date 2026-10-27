@@ -1,0 +1,45 @@
+.botton-hero-img {
+  height: 400px;
+  width: 100%;
+  background: url(../img/rodape.png) no-repeat;
+  background-size: cover;
+}
+
+.botton-hero h2 {
+  padding: 88px 24px;
+  margin: 0;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  
+}
+
+@media screen and (min-width: 768px) {
+  .botton-hero-img {
+    height: 620px;
+    background: url(../img/rodape.png) no-repeat;
+    background-size: cover;
+  }
+  .botton-hero h2 {
+    padding: 88px 60px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .botton-hero-img {
+    background: url(../img/rodape.png) no-repeat;
+    background-size: cover;
+  }
+
+  .botton-hero h2 {
+    padding: 88px 120px;
+  }
+}
+
+@media screen and (min-width: 1024x) {
+  .hero h2 {
+    padding: 88px 160px;
+  }
+}
